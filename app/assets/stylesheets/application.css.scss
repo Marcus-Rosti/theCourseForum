@@ -44,6 +44,31 @@ $btn-primary-bg: $orange;
   font-style: normal;
 }
 
+.course-row:hover
+{
+  background-color: #EEE;
+}
+
+.label-fall
+{
+  background-color: $orange;
+}
+
+.label-spring
+{
+  @extend .label-primary
+}
+
+.label-summer
+{
+  @extend .label-warning
+}
+
+.label-january
+{
+  @extend .label-danger
+}
+
 #word_cloud
 {
   font-family: 'comic-sans';
